@@ -1,0 +1,8 @@
+authtoken: 2DGZZJAVEyZ1sbzteVSFGkx91yh_5DjbvgUugW4oqgBUrSufb
+
+tunnels:
+  web:
+    proto: http
+    addr: 8080
+    subdomain: nfrr8
+

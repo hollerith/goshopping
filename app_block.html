@@ -1,0 +1,11 @@
+{% assign products = all_products | where: 'app', 'my-app-handle' | endpoint: 'https://my_shopify_app.io/products' %}
+
+
+<div class="app-block">
+  {% for product in products %}
+    <div class="product">
+      <img src="{{ product.featured_image }}" alt="{{ product.title }}" />
+      <h2>{{ product.title }}</h2>
+    </div>
+  {% endfor %}
+</div>

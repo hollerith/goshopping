@@ -1,0 +1,9 @@
+{
+  "app_blocks": [
+    {
+      "name": "Featured products",
+      "handle": "featured-products",
+      "template": "templates/featured_products.liquid"
+    }
+  ]
+}
